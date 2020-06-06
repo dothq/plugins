@@ -5,7 +5,7 @@
   "main": "lib/src",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "node ../generate-plugins-table.js && npm run build"
   },
   "repository": {
     "type": "git",

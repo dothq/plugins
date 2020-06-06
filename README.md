@@ -10,6 +10,17 @@ A collection of plugins for Dot Browser (successor to dothq/components)
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+<!-- PLUGINS-TABLE:START -->
+### Packages
+
+| Package Name |
+|:---|
+| [`@dothq/colors`](/tree/master/colors) |
+| [`@dothq/errors`](/tree/master/errors) |
+| [`@dothq/icon`](/tree/master/icon) |
+| [`@dothq/system-buttons`](/tree/master/system-buttons) |
+<!-- PLUGINS-TABLE:END -->
+
 </div>
 
 ## ❗ Issues / Support
