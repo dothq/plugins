@@ -6,7 +6,7 @@ const p = fs.readdirSync(__dirname)
 let rmd = fs.readFileSync(resolve(__dirname, "README.md"))
 
 let newTable = `
-### Packages
+## 📦 Packages
 
 | Package Name |
 |:---|
@@ -14,7 +14,7 @@ let newTable = `
 
 p.forEach(dir => {
     if(!dir.startsWith(".") && !dir.includes(".") && dir !== "LICENSE") {
-        newTable += `| [\`@dothq/${dir}\`](/tree/master/${dir}) |\n`
+        newTable += `| [\`@dothq/${dir}\`](https://github.com/dothq/plugins/tree/master/${dir}) |\n`
     }
 })
 

@@ -17,10 +17,10 @@ A collection of plugins for Dot Browser (successor to dothq/components)
 
 | Package Name |
 |:---|
-| [`@dothq/colors`](/tree/master/colors) |
-| [`@dothq/errors`](/tree/master/errors) |
-| [`@dothq/icon`](/tree/master/icon) |
-| [`@dothq/system-buttons`](/tree/master/system-buttons) |
+| [`@dothq/colors`](https://github.com/dothq/plugins/tree/master/colors) |
+| [`@dothq/errors`](https://github.com/dothq/plugins/tree/master/errors) |
+| [`@dothq/icon`](https://github.com/dothq/plugins/tree/master/icon) |
+| [`@dothq/system-buttons`](https://github.com/dothq/plugins/tree/master/system-buttons) |
 <!-- PLUGINS-TABLE:END -->
 
 ## ❗ Issues / Support
