@@ -5,9 +5,9 @@
 A collection of plugins for Dot Browser
 
 [![Discord](https://discordapp.com/api/guilds/525056817399726102/widget.png?style=shield)](https://invite.gg/dot)
-![Style](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-ff69b4) ![GitHub All Releases](https://img.shields.io/github/downloads/dothq/plugins/total?color=black) ![GitHub stars](https://img.shields.io/github/stars/dothq/plugins?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/dothq/browser?style=social)
+![Style](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-ff69b4) ![GitHub stars](https://img.shields.io/github/stars/dothq/plugins?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/dothq/browser?style=social)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 </div>
