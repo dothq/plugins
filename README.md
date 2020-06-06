@@ -2,7 +2,7 @@
 <img src="https://cdn.dothq.co/assets/dot-plugins.png" height="175" length="175">
 
 # Dot Browser - Plugins
-A collection of plugins for Dot Browser
+A collection of plugins for Dot Browser (successor to dothq/components)
 
 [![Discord](https://discordapp.com/api/guilds/525056817399726102/widget.png?style=shield)](https://invite.gg/dot)
 ![Style](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-ff69b4) ![GitHub stars](https://img.shields.io/github/stars/dothq/plugins?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/dothq/browser?style=social)
