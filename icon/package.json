@@ -1,0 +1,29 @@
+{
+  "name": "@dothq/icon",
+  "version": "1.0.0",
+  "description": "Icon component for Dot Browser",
+  "main": "lib/src",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dothq/plugins/tree/master/icon"
+  },
+  "author": "Dot HQ <contact@dothq.co>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "3.6.5"
+  },
+  "dependencies": {
+    "feather-icons-react": "^0.4.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}
