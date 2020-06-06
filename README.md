@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/u6zGT4z.png" height="175" length="175">
+<img src="https://cdn.dothq.co/assets/dot-plugins.png" height="175" length="175">
 
 # Dot Browser - Plugins
 A collection of plugins for Dot Browser
