@@ -10,8 +10,10 @@ A collection of plugins for Dot Browser (successor to dothq/components)
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+</div>
+
 <!-- PLUGINS-TABLE:START -->
-### Packages
+## 📦 Packages
 
 | Package Name |
 |:---|
@@ -20,8 +22,6 @@ A collection of plugins for Dot Browser (successor to dothq/components)
 | [`@dothq/icon`](/tree/master/icon) |
 | [`@dothq/system-buttons`](/tree/master/system-buttons) |
 <!-- PLUGINS-TABLE:END -->
-
-</div>
 
 ## ❗ Issues / Support
 Create issues [here](https://github.com/dothq/plugins/issues/new). Get support from our discord server, join by clicking the banner below.
