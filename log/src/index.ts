@@ -1,4 +1,4 @@
-import * as colors from 'colors';
+import colors from 'colors';
 
 interface LoggerOptions {
     caller: string
