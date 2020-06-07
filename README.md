@@ -20,6 +20,7 @@ A collection of plugins for Dot Browser (successor to dothq/components)
 | [`@dothq/colors`](https://github.com/dothq/plugins/tree/master/colors) |
 | [`@dothq/errors`](https://github.com/dothq/plugins/tree/master/errors) |
 | [`@dothq/icon`](https://github.com/dothq/plugins/tree/master/icon) |
+| [`@dothq/log`](https://github.com/dothq/plugins/tree/master/log) |
 | [`@dothq/system-buttons`](https://github.com/dothq/plugins/tree/master/system-buttons) |
 <!-- PLUGINS-TABLE:END -->
 

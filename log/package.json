@@ -1,0 +1,20 @@
+{
+  "name": "@dothq/log",
+  "version": "1.0.0",
+  "description": "Logging module for Dot Browser",
+  "main": "lib/src",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "node ../generate-plugins-table.js && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dothq/plugins/tree/master/log"
+  },
+  "author": "Dot HQ <contact@dothq.co>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "typescript": "3.6.5"
+  },
+  "dependencies": {}
+}
