@@ -3,27 +3,24 @@ import React from 'react';
 import { observer } from 'mobx-react'
 import { StyledWindowsButtons, StyledWindowsButton } from './style'
 
-import { BrowserWindow } from 'electron';
+import { BrowserWindow, ipcRenderer } from 'electron';
 import { 
     CLOSE_PATH, 
     MAXIMISE_PATH, 
     MINIMISE_PATH 
 } from './iconPaths';
 
-const onWindowsButtonClick = (type: 'close' | 'maximise' | 'minimise', windowHook: BrowserWindow) => {
-    if(type == "close") return windowHook.close()
-    if(type == "maximise") {
-        if(windowHook.isMaximized()) return windowHook.unmaximize()
-        return windowHook.maximize()
-    }
-    if(type == "minimise") return windowHook.minimize()
+const onWindowsButtonClick = (type: 'close' | 'maximise' | 'minimise', ipcPrefix: string) => {
+    if(type == "close") return ipcRenderer.send(`${ipcPrefix}-close`)
+    if(type == "maximise") return ipcRenderer.send(`${ipcPrefix}-maximise`)
+    if(type == "minimise") return ipcRenderer.send(`${ipcPrefix}-minimise`)
 }
 
-export const WindowsButtons = observer(({ window }: { window: BrowserWindow }) => (
+export const WindowsButtons = observer(({ ipcPrefix }: { ipcPrefix: string }) => (
     <StyledWindowsButtons>
-        <WindowsButton type={"minimise"} onClick={() => onWindowsButtonClick("minimise", window)} />
-        <WindowsButton type={"maximise"} onClick={() => onWindowsButtonClick("maximise", window)} />
-        <WindowsButton type={"close"} onClick={() => onWindowsButtonClick("close", window)} />
+        <WindowsButton type={"minimise"} onClick={() => onWindowsButtonClick("minimise", ipcPrefix)} />
+        <WindowsButton type={"maximise"} onClick={() => onWindowsButtonClick("maximise", ipcPrefix)} />
+        <WindowsButton type={"close"} onClick={() => onWindowsButtonClick("close", ipcPrefix)} />
     </StyledWindowsButtons>
 ))
 
