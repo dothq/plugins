@@ -17,6 +17,7 @@ A collection of plugins for Dot Browser (successor to dothq/components)
 
 | Package Name |
 |:---|
+| [`@dothq/addressbar`](https://github.com/dothq/plugins/tree/master/addressbar) |
 | [`@dothq/colors`](https://github.com/dothq/plugins/tree/master/colors) |
 | [`@dothq/errors`](https://github.com/dothq/plugins/tree/master/errors) |
 | [`@dothq/icon`](https://github.com/dothq/plugins/tree/master/icon) |
