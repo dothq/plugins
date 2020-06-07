@@ -84,7 +84,7 @@ export const Input = styled.input`
     }
 
     ${({ showSearchText, isFocused, searchWidth }: { showSearchText?: boolean; isFocused?: boolean; searchWidth?: number }) => css`
-        // padding-left: ${showSearchText ? searchWidth : 38}px;
+        padding-left: ${showSearchText ? searchWidth : 38}px;
     `};
 `;
 

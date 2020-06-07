@@ -1,6 +1,6 @@
 {
   "name": "@dothq/log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Logging module for Dot Browser",
   "main": "lib/src",
   "scripts": {
@@ -14,7 +14,10 @@
   "author": "Dot HQ <contact@dothq.co>",
   "license": "AGPL-3.0",
   "devDependencies": {
+    "@types/node": "^14.0.11",
     "typescript": "3.6.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

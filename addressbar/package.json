@@ -1,6 +1,6 @@
 {
   "name": "@dothq/addressbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Addressbar for Dot Browser",
   "main": "lib/src",
   "scripts": {
