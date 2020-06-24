@@ -19,7 +19,7 @@ export const StyledWindowsButton = styled.div`
 
     ${({ isClose }: { isClose?: boolean }) => css`
         &:hover {
-            background-color: ${isClose ? "#e81123" : "#e5e5e5"};
+            background-color: ${isClose ? "#e81123" : "rgba(0, 0, 0, 0.05)"};
 
             svg {
                 filter: ${isClose ? "invert(1)" : ""};
